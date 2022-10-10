@@ -1,0 +1,15 @@
+var a = require("fs");
+
+// a.readFile("read.txt","utf-8",(err,data) => {
+//     console.log(err);
+//     console.log(data);
+// });
+
+// console.log(1);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var b = a.readFileSync("read.txt") ;
+var c = b.toString();
+console.log(c);
+console.log(1);
